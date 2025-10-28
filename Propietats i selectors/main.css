@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #334155;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#projecte {
+  max-width: 900px;
+  margin: 3rem auto;
+  background: #93c5fd;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+}
+
+header {
+  background: #edf4fc;
+  text-align: center;
+  padding: 2.5rem 1.5rem;
+  border-bottom: 2px solid #cbd5e1;
+}
+h1 {
+  font-size: 3rem;
+  color: #1e293b;
+  letter-spacing: 1px;
+}
+
+p {
+  color: #475569;
+  font-size: 1.1rem;
+  margin-top: 0.6rem;
+}
+
+section {
+  padding: 2rem 3rem;
+  display: grid;
+  gap: 1.5rem;
+  background-color: #f8fafc;
+}
+
+.card {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(30, 41, 59, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.card > h2 {
+  color: #2563eb;
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+}
+
+.card h2 + p {
+  color: #64748b;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+.card h2 ~ ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card h2 ~ ul li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 1rem auto;
+  border: 4px solid #93c5fd;
+  background: linear-gradient(145deg, rgba(52, 152, 219, 0.2), rgba(241, 245, 249, 0.8));
+  box-shadow: 0 8px 18px rgba(52, 152, 219, 0.1);
+}
+
+footer {
+  background: #edf4fc;
+  text-align: center;
+  padding: 1.5rem;
+  color: #475569;
+  font-size: 0.9rem;
+  border-top: 1px solid #cbd5e1;
+}
+
+a[href] {
+  color: #3498db;
+  font-weight: 500;
+}
+
+button {
+  background: #3498db;
+  color: #f0f4f8;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+img {
+  size: 400;
+}
